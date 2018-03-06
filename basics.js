@@ -34,3 +34,10 @@ function greet(name) {
  * it should have a `bark` function that makes your dog bark!
  * It should also have a name attribute with the value of 'Spot'
  */
+
+ var dog = {
+     name: 'Spot',
+     bark: function() {
+         console.log('bark');
+     }
+}
